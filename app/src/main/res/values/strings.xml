@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">WebReader</string>
+    <string name="url_text">Type URL</string>
+    <string name="go_btn">GO</string>
+</resources>
