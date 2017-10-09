@@ -23,6 +23,8 @@ public class WebActivity extends AppCompatActivity {
 
     public void click_go(View view) {
         String url= editTextURL.getText().toString();
+        WebReaderTask wrTask = new WebReaderTask();
+        wrTask.execute(url);
         //textViewWEB.setText(WebReader.getURL(editTextURL.getText().toString()));                  //no podem fer getURL aquí!
     }
 
